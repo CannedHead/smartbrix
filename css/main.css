@@ -1583,7 +1583,9 @@ margin-bottom: 15%;
 		letter-spacing: 1px; 
 		}	
 
-
+	.arrow-down2{
+		display: none;
+	}
 	.call-2-action h4{
 		line-height: 10px;
 		font-size: 1.1em;
@@ -2824,6 +2826,10 @@ h3 {
 .servicio{
 	height: 240px;
 	  padding: 0% 2% !important;
+}
+
+.arrow-down2{
+	display:block;
 }
 .call-2-action {
 
