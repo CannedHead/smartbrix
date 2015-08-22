@@ -1732,6 +1732,7 @@ margin-bottom: 15%;
 	.proyectos{
 		font-family: 'Raleway', sans-serif;
 		padding: 0% 0% 0% 0%; 
+
 	}
 
 	.proyectos h2{
@@ -3328,13 +3329,15 @@ height: 680px;
 		display: none;
 	}
 	#h-screen{
-	height: 100%;
+	height: 100% !important;
+	padding-top: 0em !important;
+	padding-bottom: 0px !important;
 	background-size: 146% auto;
 	transition: all 3s ease-in-out;
 	}
 	#p-screen{
-		height: 100%;
-		padding-top: 1%;
+		height: 100% !important;
+		padding-top: 6% !important;
 	}
 	.servicio{
 		height: 80%;
@@ -3345,9 +3348,12 @@ height: 680px;
   font-size: 2em;
   line-height: 29px;
 }
+	.contenedor-slider{
+		height: 70%;
+	}
 	.slider {
-  height: 350px;
-}
+  	height: 100%;
+	}
 
 	.view-more {
 	  width: auto;
@@ -3425,7 +3431,6 @@ height: 680px;
 	.products h2, .proyectos h2 {
 	  font-size: 3.5em;
 	  margin-left: 3%;
-	  margin-top: 50px;
 	}
 
 	#h-screen:hover{
@@ -3436,16 +3441,18 @@ height: 680px;
 	.contact-btn2{
 		display: block;
 		background-color: #8EBC2A;
-		height: 398px;
+		height: 100%;
 		color: white;
 
 	
 	}
 	.conta-home{
 		padding: 8% 0%;
+
 	}
 	.contact-home{
 		padding-left: 0px !important; 
+		height: 77%; 
 
 	}
 	.contact-btn{
