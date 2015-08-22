@@ -3346,7 +3346,7 @@ height: 680px;
   line-height: 29px;
 }
 	.slider {
-  height: 400px;
+  height: 360px;
 }
 
 	.view-more {
@@ -3436,7 +3436,7 @@ height: 680px;
 	.contact-btn2{
 		display: block;
 		background-color: #8EBC2A;
-		height: 450px;
+		height: 410px;
 		color: white;
 
 	
@@ -3655,9 +3655,9 @@ height: 680px;
 	  color: #ffffff;
 	  font-weight: 500;
 	  letter-spacing: 2px;
-	  font-size: 1.2em;
+	  font-size: 1em;
 	  /* opacity: 0.5; */
-	  padding: 0px 10px;
+	  padding: 0px 5px;
 	  transition: all 0.4s ease-in-out;
 }
 	#menu-smart li a:hover,
