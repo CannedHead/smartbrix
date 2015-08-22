@@ -82,7 +82,8 @@ html,body{
   border: 0;
   padding: 0;
   height: 50px; 
-  background-color: #D8D8D8;
+  background-color: #E3E3E3;
+  color: #8EBC2A;
   font-weight: 700;
   transition: all 0.4s ease; 
 
@@ -95,9 +96,27 @@ html,body{
   border: 0;
   padding: 0;
   height: 50px; 
-  background-color: #333;
+  background-color: #8EBC2A;
   color: #fff; 
+  text-transform: uppercase;
+  letter-spacing: 1px;
 
+}
+
+
+
+
+.send-btn-con{
+
+  border: 0;
+  padding: 0;
+  height: 50px; 
+  border:solid 1px white;
+  background-color: white;
+  color: #8EBC2A; 
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: 5px;
 }
 
 
@@ -1055,34 +1074,36 @@ outline: none;
   	opacity: 0.5;
   	margin-top: 25%; 
 }
-.footer{
+#footer{
 	background-color: white; 
-	height: auto; 
 
-	padding: 10%; 
-	font-family: 'Raleway', sans-serif;
+	
 	color: #333; 
 }
 
-.footer hr{
+#footer hr{
 	margin-top: -1%; 
 	width: 15%; 
 	border-top: solid 3px #fff;
 }
-.footer h4{
+#footer h4{
 	color: #fff; 
 }
 
-.footer a, .footer a:hover{
+#footer a, #footer a:hover{
 	color: #fff !important;
 	text-decoration: none;
 
 	font-weight: 600;  
+}
 
-
+#footer{
+	padding: 10%; 
+	font-family: 'Raleway', sans-serif;
+}
 
 }
-.footer a span p{
+#footer a span p{
 	font-weight: 400; 
 	margin-left: 6%; 
 }
@@ -1095,6 +1116,7 @@ outline: none;
 .footer-c2{
 	color: #fff; 
 	margin-top: 5%;
+	font-family: 'Raleway', sans-serif;
 
 }
 
@@ -1839,6 +1861,7 @@ margin-bottom: 15%;
 	.contact-btn{
 		background-color: #8EBC2A;
 		height: 120px; 
+		  color: white;
 	}
 
 	.contact-btn-2{
@@ -3437,7 +3460,7 @@ height: 680px;
 		border-color:#ffffff;
 		background-color: transparent;
 		color: white;
-		margin: 10px 0px;
+		margin: 5px 0px;
 	} 
 	
 		  .css-input::-webkit-input-placeholder { /* WebKit, Blink, Edge */
