@@ -86,10 +86,7 @@ html,body{
   color: #8EBC2A;
   font-weight: 700;
   transition: all 0.4s ease; 
-
-
 }
-
 
 .send-btn-free{
 
@@ -100,11 +97,7 @@ html,body{
   color: #fff; 
   text-transform: uppercase;
   letter-spacing: 1px;
-
 }
-
-
-
 
 .send-btn-con{
 
@@ -3519,25 +3512,6 @@ height: 680px;
 		  margin-top: 2%;
 	}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 	.pillow-nav{
 		position: fixed !important;
 		height: 100px;
@@ -3596,10 +3570,6 @@ height: 680px;
   		box-shadow: 0 1px 4px 1px rgba(0,0,0,0.3);
   		z-index: 99999999;
 	}
-
-
-
-
 
 	.logo-anim{
 		height: 100%; 
@@ -3679,9 +3649,9 @@ height: 680px;
 	}
 
 
-		#menu-pillow-home {
+	#menu-pillow-home {
 
-	clear:left;
+	   clear:left;
 	   float:left;
 	   list-style:none;
 	   margin:0;
@@ -3691,7 +3661,7 @@ height: 680px;
 	   text-align:center;
 	   margin-top: 2%; 
 
-		}
+	}
 
 
 
@@ -3808,15 +3778,11 @@ height: 680px;
 		   	-ms-transform: translateY(-50%);
 	}
 
-
 	.social-div-pillow2:hover p{
 		  color: #FF1B81;
 		  opacity: 1; 
 		  
 	}
-
-
-
 
 	.social-pillow{
 		text-align: left;
@@ -3884,9 +3850,6 @@ height: 680px;
 
 	}
 
-	
-
-
 	.menu-list a:hover{
 		
 	  text-decoration: none; 
@@ -3919,10 +3882,6 @@ height: 680px;
   		margin-bottom: 5% !important;
 
 	}
-
-
-
-
 
 
 	.menu-list a span p {
