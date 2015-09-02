@@ -907,12 +907,11 @@ html,body{
 	}
 
 	.ser-img1{
-
 		background-color: white;  
 		background-image: url('https://s3.amazonaws.com/cannedhead.smartbrix/bodegas-prefabricadas.jpg'); 
-	 
 		transition: all 2s ease-in-out;
 	}
+
 	.ser-img1:hover, 
 	.ser-img2:hover,
 	.ser-img3:hover,
@@ -1102,53 +1101,6 @@ html,body{
 	  	opacity: 0.5;
 	  	margin-top: 25%; 
 	}
-	#footer{
-		background-color: white; 
-
-		
-		color: #333; 
-	}
-
-	#footer hr{
-		margin-top: -1%; 
-		width: 15%; 
-		border-top: solid 3px #fff;
-	}
-	#footer h4{
-		color: #fff; 
-	}
-
-	#footer a, #footer a:hover{
-		color: #fff !important;
-		text-decoration: none;
-
-		font-weight: 600;  
-	}
-
-	#footer{
-		padding: 10%; 
-		font-family: 'Raleway', sans-serif;
-	}
-
-	}
-	#footer a span p{
-		font-weight: 400; 
-		margin-left: 6%; 
-	}
-
-	.logo-footer{
-		width: 30%;
-		height:auto; 
-		margin-bottom: 5%;
-	}
-	.footer-c2{
-		color: #fff; 
-		margin-top: 5%;
-		font-family: 'Raleway', sans-serif;
-
-	}
-
-
 
 	.social-div{
 		height: 45px;	
@@ -1166,29 +1118,13 @@ html,body{
 	.social-div:hover{
 		color: #222;
 		background-color: #fff; 
-
-
-	}
-
-	.footer-c3{
-		font-family: 'Raleway', sans-serif;
-		margin-top: 15%;
-		color:#333;
-		text-align: center; 
-		font-size: 0.6em;
-		letter-spacing: 1px;
 	}
 
 	.social-icons a{
 		opacity: 1 !important; 
-
 	}
 
-
-
 	/*articles*/
-
-
 	/*ARTICULOS DE INTERES*/
 
 	.post-module {
@@ -1472,6 +1408,70 @@ html,body{
 	.email{
 		width: 100%;
 	}
+
+/*
+███████╗ ██████╗  ██████╗ ████████╗███████╗██████╗ 
+██╔════╝██╔═══██╗██╔═══██╗╚══██╔══╝██╔════╝██╔══██╗
+█████╗  ██║   ██║██║   ██║   ██║   █████╗  ██████╔╝
+██╔══╝  ██║   ██║██║   ██║   ██║   ██╔══╝  ██╔══██╗
+██║     ╚██████╔╝╚██████╔╝   ██║   ███████╗██║  ██║
+╚═╝      ╚═════╝  ╚═════╝    ╚═╝   ╚══════╝╚═╝  ╚═╝
+*/
+
+
+	#footer{
+		background-color: white; 
+		color: #333; 
+	}
+
+	#footer hr{
+		margin-top: -1%; 
+		width: 15%; 
+		border-top: solid 3px #fff;
+	}
+	#footer h4{
+		color: #fff; 
+	}
+
+	#footer a, #footer a:hover{
+		color: #fff !important;
+		text-decoration: none;
+
+		font-weight: 600;  
+	}
+
+	#footer{
+		padding: 10%; 
+		font-family: 'Raleway', sans-serif;
+	}
+
+	}
+	#footer a span p{
+		font-weight: 400; 
+		margin-left: 6%; 
+	}
+
+	.logo-footer{
+		width: 30%;
+		height:auto; 
+		margin-bottom: 5%;
+	}
+	.footer-c2{
+		color: #fff; 
+		margin-top: 5%;
+		font-family: 'Raleway', sans-serif;
+
+	}
+
+	.footer-c3{
+		font-family: 'Raleway', sans-serif;
+		margin-top: 15%;
+		color:#333;
+		text-align: center; 
+		font-size: 0.6em;
+		letter-spacing: 1px;
+	}
+
 
 /*
 ███╗   ███╗       ██████╗ ██╗   ██╗███████╗██████╗ ██╗███████╗███████╗
