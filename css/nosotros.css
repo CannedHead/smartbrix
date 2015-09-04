@@ -135,16 +135,18 @@
 	    float:left;
 	}
 	.square li{
-	    margin: 1.5em 0;    
+	    margin: 1.5em 0; 
+	    font-family: 'Raleway', sans-serif;
+	    font-size: 1.4em;
+	   	text-align: justify;  
 	}
 	.square li:before{
 	    content: counter(list-counter);
 	    counter-increment: list-counter;
 	    width: 2em;
 	    height: 2em;
-	    padding: 1em;
+	    padding: 0.2em 0em 0em 0em;
 	    margin-right: 1em;
-	    border: .25em solid #ccc;
 	    background: #000;
 	    color: #fff;
 	    font-family: arial;
@@ -225,6 +227,7 @@
 	}
 
 	@media (min-width: 520px) { 
+
 		.nosotros-img1{
 			height: 255px;
 			background-size: 110% auto;
