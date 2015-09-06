@@ -24,6 +24,15 @@
     '}'
   ].join('');
 
+  var css2 = [
+    '.fluidvids {',
+      'width: 100%; max-width: 100%; position: relative;',
+    '}',
+    '.fluidvids-item {',
+      'position: absolute; top: 0px; left: 0px; width: 100%; height: 80%;',
+    '}'
+  ].join('');
+
   var head = document.head || document.getElementsByTagName('head')[0];
 
   function matches (src) {
@@ -47,7 +56,7 @@
 
   function addStyles () {
     var div = document.createElement('div');
-    div.innerHTML = '<p>x</p><style>' + css + '</style>';
+    div.innerHTML = '<p>x</p><style>' + css2 + '</style>';
     head.appendChild(div.childNodes[1]);
   }
 
