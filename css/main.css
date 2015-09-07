@@ -73,6 +73,28 @@ html,body{
 	  letter-spacing: 1px;
 	}
 
+	.send-btn-con:hover{
+
+	  border: 0;
+	  padding: 0;
+	  height: 50px; 
+	  background-color: #E3E3E3;
+	  color: #8EBC2A;
+	  font-weight: 700;
+	  transition: all 0.4s ease; 
+	}
+
+	.send-btn-con{
+
+	  border: 0;
+	  padding: 0;
+	  height: 50px; 
+	  background-color: white;
+	  color: #8EBC2A; 
+	  text-transform: uppercase;
+	  letter-spacing: 1px;
+	}
+
 	.inputGroup2 {
 	  position: relative;
 	  margin-bottom: 30px;
@@ -1457,6 +1479,7 @@ html,body{
 		background-color: white; 
 		color: #333; 
 		padding: 5% 5% !important;
+		border-top: solid 3px #8EBC2A;
 	}
 
 	#footer hr{
@@ -2724,6 +2747,244 @@ html,body{
 				   	-ms-transform: translateY(-50%);
 
 		}
+
+
+		/*
+		NOSOTROS 320PX
+		*/
+
+		.nosotros1{
+			background-color: white  !important;
+			height: auto;
+			margin-top: 120px;
+			font-family: 'Raleway', sans-serif;
+		}
+
+		.no-img1{
+			background-color: white;  
+			background-image: url('https://s3.amazonaws.com/cannedhead.smartbrix/nosotros/nosotros1.jpg'); 
+			transition: all 2s ease-in-out;
+		}
+
+		.no-img1:hover{
+			background-size: 130% auto;
+			transition: all 2s ease-in-out;
+		}
+
+		.no-img1{
+			height: 100%;
+			background-size: 125% auto;
+		}
+
+
+
+
+		.no-intro{
+			text-align: center;
+
+		}
+
+		.no-intro h2{
+			
+		 	font-size: 1.9em; 
+		 	font-weight: 800;
+		 	letter-spacing: 1px;
+		}
+		.no-intro hr{
+			border: solid 1px #333;
+			width: 20%;
+			margin-left: 40%;
+		}
+
+		.no-intro p{
+			text-align: justify;
+			padding: 0% 5px;
+		}
+
+		.nosotros2{
+			background-color: white  !important;
+			height: auto;
+			font-family: 'Raleway', sans-serif;
+		}
+
+		.mision{
+			height: 170px; 
+		}
+
+		.no-mision{
+			text-align: left;
+			background-color: #E1E1E1;
+
+		}
+
+		.no-mision h2{
+			
+		 	font-size: 1.9em; 
+		 	font-weight: 500;
+		 	letter-spacing: 1px;
+		}
+		.no-mision hr{
+			border: solid 1px #333;
+			width: 20%;
+			
+		}
+
+		.no-mision p{
+			text-align: justify;
+			padding: 0% 5px;
+		}
+
+
+		.no-img2{
+			background-color: white;  
+			background-image: url('https://s3.amazonaws.com/cannedhead.smartbrix/nosotros/nosotros2.jpg'); 
+			transition: all 2s ease-in-out;
+			margin-top: 15px;
+		}
+
+		.no-img2:hover{
+			background-size: 130% auto;
+			transition: all 2s ease-in-out;
+		}
+
+		.no-img2{
+			height: 100%;
+			background-size: 125% auto;
+		}
+
+
+		.nosotros3{
+			background-color: white  !important;
+			height: auto;
+			font-family: 'Raleway', sans-serif;
+		}
+
+		.no-img3{
+			background-color: white;  
+			background-image: url('https://s3.amazonaws.com/cannedhead.smartbrix/nosotros/nosotros1.jpg'); 
+			transition: all 2s ease-in-out;
+			margin-top: 15px;
+		}
+
+		.no-img2:hover{
+			background-size: 130% auto;
+			transition: all 2s ease-in-out;
+		}
+
+		.no-img2{
+			height: 100%;
+			background-size: 125% auto;
+		}
+
+
+
+		.no-politicas{
+			text-align: left;
+		
+
+		}
+
+		.no-politicas h2{
+			
+		 	font-size: 1.9em; 
+		 	font-weight: 500;
+		 	letter-spacing: 1px;
+		}
+		.no-politicas hr{
+			border: solid 1px #333;
+			width: 20%;
+			
+		}
+
+		.no-politicas p{
+			text-align: justify;
+			padding: 0% 5px;
+		}
+
+		.no-politicas p b{
+			text-align: justify;
+			padding: 0% 5px;
+
+		}
+
+
+
+		.square{
+		    counter-reset: list-counter;
+		    list-style: none;
+		    float:left;
+		}
+
+
+		.square li{
+		       width: 45px;
+		       float: left;
+		}
+		.square li:before{
+		    content: counter(list-counter);
+		    counter-increment: list-counter;
+		    width: 35px;
+		    height: 35px;
+		    padding: .5em;
+		    margin-right: 1em;
+		
+		    background: #333;
+		    color: #fff;
+
+		    font-size: 1.1em;
+		    text-align: center;
+		    display: inline-block;
+		    
+		}
+
+		.solicita{
+			text-transform: uppercase;
+			font-family: 'Raleway', sans-serif !important;
+			font-weight: 300 !important;
+			font-size: 1.4em !important;
+			margin-top: 10px !important;
+
+		}
+
+		.cotizacion{
+			text-transform: uppercase;
+			font-family: 'Raleway', sans-serif !important;
+			font-weight: 800 !important;
+			margin-top: -15px !important;
+			font-size: 1em !important;
+		}
+
+		.cotiza-icon{
+			font-size: 0.8em !important;
+			text-align: right;
+		}
+
+
+
+		.nosotros4{
+			background-color: white  !important;
+			height: auto;
+			font-family: 'Raleway', sans-serif;
+		}
+
+		.no-img4{
+			background-color: white;  
+			background-image: url('https://s3.amazonaws.com/cannedhead.smartbrix/nosotros/nosotros1.jpg'); 
+			transition: all 2s ease-in-out;
+			margin-top: 15px;
+		}
+
+		.no-img4:hover{
+			background-size: 130% auto;
+			transition: all 2s ease-in-out;
+		}
+
+		.no-img4{
+			height: 100%;
+			background-size: 125% auto;
+		}
+
+
 	}
 
 	@media (min-width: 480px) { 
@@ -2834,6 +3095,11 @@ html,body{
 		}
 		.footer {
 			padding: 0%; 
+		}
+
+		/* nosotros*/
+		.mision {
+		    height: 320px;
 		}
 	}
 
@@ -3071,6 +3337,41 @@ html,body{
 			border-bottom: solid 7px #FF1B81;
 
 		}
+
+		/*Nosotros*/
+		
+		.nosotros1, .nosotros2, .nosotros3, .nosotros4{
+			height: 85% !important;
+			padding-top: 6% !important;
+		}
+
+		#p-screen{
+			height: 100% !important;
+			padding-top: 6% !important;
+		}
+		.servicio {
+		    height: 430px;
+		    padding: 0% 2% !important;
+		}
+
+		.no-img1 {
+		    background-size: auto 100% !important;
+		}
+
+		.no-img2 {
+    		background-color: white;
+    		background-image: url('https://s3.amazonaws.com/cannedhead.smartbrix/nosotros/nosotros2.jpg');
+    		transition: all 2s ease-in-out;
+    		margin-top: 0px;
+    		background-size: auto 100% !important;
+    		padding-left: 15px !important;
+		}
+		.no-mision {
+		    text-align: left;
+		    background-color: #fff;
+		}
+		.footer-c6{
+			margin-top: 50px;		}
 	}
 
 	@media (min-width: 992px) { 
@@ -3269,11 +3570,53 @@ html,body{
 			font-weight: 300;
 		}
 
-		/*Eventos */
+		
 
-		.banner-eventos{
-			padding: 2% 5%;
+		/*Nosotros*/
+		#fullpage{
+			height: 100%;
 		}
+
+		.nosotros1, .nosotros2,  .nosotros4{
+			height: 85% !important;
+
+		}
+
+		.nosotros2{
+			height: 30% !important;
+		}
+
+		.nosotros3{
+			height: 100% !important;
+		}
+
+		#p-screen{
+			height: 85% !important;
+			padding-top: 6% !important;
+		}
+		.servicio {
+		    height: 85%;
+		    padding: 0% 2% !important;
+		}
+
+		.no-img1 {
+		    background-size: auto 100% !important;
+		}
+
+		.no-img2 {
+    		background-color: white;
+    		background-image: url('https://s3.amazonaws.com/cannedhead.smartbrix/nosotros/nosotros2.jpg');
+    		transition: all 2s ease-in-out;
+    		margin-top: 0px;
+    		background-size: auto 100% !important;
+    		padding-left: 15px !important;
+		}
+		.no-mision {
+		    text-align: left;
+		    background-color: #fff;
+		}
+		.footer-c6{
+			margin-top: 50px;		}
 	}
 
 	@media (min-width: 1200px) { 
@@ -3657,6 +4000,42 @@ html,body{
 	.h5-social{
 		padding: 0% !important;
 	}
+
+
+	/*Nosotros*/
+
+	.nosotros1, .nosotros2,  .nosotros4{
+		height: 100% !important;
+
+	}
+
+	.nosotros2{
+		height: 100% !important;
+	}
+
+	.nosotros3{
+		height: 100% !important;
+	}
+
+	#p-screen{
+		height: 100% !important;
+		padding-top: 6% !important;
+	}
+
+	.nosotros1 {
+	    margin-top: 0px;
+	}
+
+	.servicio {
+    height: 100%;
+    padding: 0.5% !important;
+	}
+
+	.no-intro {
+	    text-align: center;
+	    padding: 7% 10% !important;
+	}
+
 }
 
 	@media (min-width: 1680px) {
