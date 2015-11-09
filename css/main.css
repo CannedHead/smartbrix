@@ -232,6 +232,23 @@ html,body{
 		
 	}
 
+	.dropSer2{
+		display: none !important;
+		z-index: 999999999 !important;
+		
+	}
+
+	.dropSer2-h{
+		display: none !important;
+		z-index: 999999999 !important;
+		
+	}
+
+	.dropSer2-h a{
+		opacity: 0.5;
+		
+	}
+
 	.hover-link{
 		display: block !important;
 		position: absolute;
@@ -246,6 +263,7 @@ html,body{
 		text-align: left;
 		padding: 5% 20% !important; 
 		z-index: 999999999 !important;
+		width: 240px;
 	}
 
 	.menu-list a{
@@ -301,6 +319,96 @@ html,body{
 	.menu-list a span p {
 		color: #fff; 
 	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		.menu2-list{
+			text-align: left;
+			padding: 5% 2% !important; 
+			z-index: 999999999 !important;
+		
+			width:240px;
+		}
+
+		.menu2-list a{
+			padding: 0% 0% !important; 
+			width: 100%; 
+			height: 20px; 
+			color: #fff; 
+			 
+		}
+		
+		.menu2-list a span {
+			
+		  font-weight: 600;
+		  text-transform: none;
+		  font-family: 'Montserrat', sans-serif;
+		  color: #fff;
+		  font-size: 1.1em; 
+		  margin: 0px 0px 0px 0px !important;
+
+		}
+
+		.menu2-list a:hover{
+		  text-decoration: none; 
+		}
+
+		.menu2-list a span p {
+			
+			font-weight: 400;
+			text-transform: none;
+			font-family: 'Raleway', sans-serif;
+			color: #fff; 
+			font-size: 0.9em; 
+			letter-spacing: 1px;
+			margin: 0px 0px 0px 0px !important;
+			margin-left: 8% !important;
+	  		margin-bottom: 5% !important;
+
+		}
+
+		.menu2-list a span p:hover {
+			
+			font-weight: 400;
+			text-transform: none;
+			font-family: 'Raleway', sans-serif;
+			color: #8EBC2A ; 
+			 
+			margin: 0px 0px 0px 0px !important;
+			margin-left: 8% !important;
+	  		margin-bottom: 5% !important;
+
+		}
+
+
+		.menu2-list a span p {
+			color: #fff; 
+		}
+
+
+
+
+
+
+
+
+
 
 	.social-row{
 		width: 235px;
@@ -766,9 +874,10 @@ html,body{
 */
 	#h-screen{
 		height: 580px;
-		background-image: url('https://dqoefujyy8ep3.cloudfront.net/Img/home/back-home.jpg'); 
+		background-image: url(''); 
 		background-size: auto 100%;
 	  	background-position: -310px;	
+	  	background-color: #333;
 	}
 	.logo{
 		width: 40%;
@@ -962,6 +1071,20 @@ html,body{
 		
 	}
 
+	.servicio2{
+		background-color: white;
+		font-family: 'Raleway', sans-serif;
+		padding: 15px; 
+		
+	}
+
+	.servicio3{
+		background-color: white;
+		font-family: 'Raleway', sans-serif;
+		padding: 15px; 
+		
+	}
+
 	.ser-img1{
 		background-color: white;  
 		background-image: url('https://s3.amazonaws.com/cannedhead.smartbrix/bodegas-prefabricadas.jpg'); 
@@ -990,7 +1113,9 @@ html,body{
 	}
 	.ser-img2{
 		background-color: white;  
-		background-image: url('https://s3.amazonaws.com/cannedhead.smartbrix/construcciones-modulares.jpg'); 	 
+		background-image: url('https://s3.amazonaws.com/cannedhead.smartbrix/service-2.jpg'); 	 
+		background-size:  100% auto;
+		background-position: -20px;
 	}
 	.ser-img3{
 		background-color: white;  
@@ -1027,13 +1152,26 @@ html,body{
 	  	margin-top: -5%;
 	}
 	.ser-description{
-		padding: 5% 5%; 
+		padding: 5% 5% !important; 
+		background-color: #F5F5F5;
 		text-align: left;
+		font-family: 'Raleway';
 	}
 	.ser-description a{
 		color: #FF1B81; 
 	}
 
+	.ser-description h3{
+		font-weight: 400;
+
+	}
+
+	.ser-description hr{
+		width: 10%;
+		border: solid 1px #333;
+		margin-top: -5px;
+
+	}
 
 	/* articles*/
 
@@ -1521,6 +1659,20 @@ html,body{
 
 	}
 
+	.footer-cp{
+		color: #fff; 
+		margin-top: 5%;
+		font-family: 'Raleway', sans-serif;
+
+	}
+
+	.footer-ser{
+		color: #fff; 
+		margin-top: 0%;
+		font-family: 'Raleway', sans-serif;
+
+	}
+
 	.footer-c3{
 		font-family: 'Raleway', sans-serif;
 		margin-top: 15%;
@@ -1553,6 +1705,7 @@ html,body{
 			z-index: 2000; 
 			-webkit-box-shadow: 0 1px 4px 1px rgba(0,0,0,0.3);
 			box-shadow: 0 1px 4px 1px rgba(0,0,0,0.3);
+			top: 0px;
 		}
 
 		.social-div-smart-mobile{
@@ -1674,13 +1827,13 @@ html,body{
 		.menu{
 			text-align: center;
 			font-family: 'Raleway', sans-serif;
-			padding: 5%; 
+			padding: 0%; 
 		}	
 
 		.menu h2{
 			color: #333;
 			letter-spacing: 1px; 
-			 margin: 10% 0px !important;
+			 margin: 7% 0px !important;
 		}
 
 		.list-mobile a{
@@ -1689,7 +1842,7 @@ html,body{
 
 		.cont-home{
 			height: 100%; 
-			background-color: rgba(0,0,0,0.6);
+			background-color: rgba(0,0,0,0.7);
 			padding: 50% 5% !important;
 			font-family: 'Raleway', sans-serif;
 			color: white;
@@ -1697,6 +1850,8 @@ html,body{
 		.contact-btn2{
 			display: none; 
 		}
+
+
 		.cont-home h4{
 			margin-top:-5%;
 		}
@@ -1733,6 +1888,19 @@ html,body{
 			height: 260px; 
 
 		}
+
+		.servicio2{
+			height: 500px; 
+
+		}
+
+		.servicio3{
+			height: 260px; 
+
+		}
+
+
+
 		.ser-img-filter{
 			height: 100%; 
 			background-color: rgba(0,0,0,0.6);
@@ -1767,7 +1935,7 @@ html,body{
 		}
 
 		.view-more{
-			width: 100px;
+			width: 90%;
 			height: 40px;
 			position: absolute;
 			bottom: 0;
@@ -1961,6 +2129,9 @@ html,body{
 
 		}
 
+
+
+
 		.contact-btn-2:before{
 			content : "";
 			  position: absolute;
@@ -1981,6 +2152,42 @@ html,body{
 		}
 
 		.contact-btn-2 p{
+			text-align: left;
+			font-size: 1em;
+			font-weight: 700;
+			letter-spacing: 1px;
+		
+		}
+
+
+		.contact-btn-3{
+			height: 80px; 
+			border-left: solid 2px white;
+			border-right: solid 2px white;
+
+		}
+		
+
+		.contact-btn-3:before{
+			content : "";
+			  position: absolute;
+			  left    : 0;
+			  height  : 2px;
+			  width   : 80px;  /* or 100px */
+			  border-top:2px solid white;
+		}
+
+		.contact-btn-3:after{
+			content : "";
+			  position: absolute;
+			  right   : 0;
+			  bottom: 0;
+			  height  : 2px;
+			  width   : 80px;  /* or 100px */
+			  border-top:2px solid white;
+		}
+
+		.contact-btn-3 p{
 			text-align: left;
 			font-size: 1em;
 			font-weight: 700;
@@ -2018,8 +2225,34 @@ html,body{
 			background-size: 125% auto;
 		}
 
+		.ser2-img1, 
+		.ser2-img2,
+		.ser2-img3,
+		.ser2-img4,
+		.ser2-img5,
+		.ser2-img6{
+			height: 40%;
+			background-size: 125% auto;
+		}
+
+		.ser-pic 
+		{
+			background-color: white;  
+			background-image: url('https://s3.amazonaws.com/cannedhead.smartbrix/construcciones-modulares.jpg');
+			background-size:  auto 150% !important;
+		}
+
 		.servicio a{
 			height: 100%;
+		}
+
+		.servicio2 a{
+			height: 100%;
+		}
+
+		.servicio3 a{
+			height: 100%;
+
 		}
 		.cliente-cube,
 		.cliente-cube-c{
@@ -2762,7 +2995,7 @@ html,body{
 
 		.no-img1{
 			background-color: white;  
-			background-image: url('https://s3.amazonaws.com/cannedhead.smartbrix/nosotros/nosotros1.jpg'); 
+			background-image: url('https://s3.amazonaws.com/cannedhead.smartbrix/politicas.jpg'); 
 			transition: all 2s ease-in-out;
 		}
 
@@ -2772,9 +3005,26 @@ html,body{
 		}
 
 		.no-img1{
-			height: 100%;
+			height: 270px;
 			background-size: 125% auto;
 		}
+
+		.no-img-i{
+			height: 350px;
+			background-size: 125% auto;
+			background-color: white;  
+			background-image: url('https://s3.amazonaws.com/cannedhead.smartbrix/hseq.jpg'); 
+			transition: all 2s ease-in-out;
+		}
+
+		.no-img-i:hover{
+			background-size: 100% auto  ;
+			transition: all 2s ease-in-out;
+		}
+
+	
+
+		
 
 
 
@@ -2837,9 +3087,18 @@ html,body{
 
 		.no-img2{
 			background-color: white;  
-			background-image: url('https://s3.amazonaws.com/cannedhead.smartbrix/nosotros/nosotros2.jpg'); 
+			background-image: url('https://s3.amazonaws.com/cannedhead.smartbrix/quienes-somos.jpg'); 
 			transition: all 2s ease-in-out;
 			margin-top: 15px;
+			background-repeat: no-repeat;
+		}
+
+		.no-img-vision{
+			background-color: white;  
+			background-image: url('https://s3.amazonaws.com/cannedhead.smartbrix/mision-vision.jpg'); 
+			transition: all 2s ease-in-out;
+			margin-top: 15px;
+			background-repeat: no-repeat;
 		}
 
 		.no-img2:hover{
@@ -2848,6 +3107,16 @@ html,body{
 		}
 
 		.no-img2{
+			height: 100%;
+			background-size: 125% auto;
+		}
+
+		.no-img-vision:hover{
+			background-size: 130% auto;
+			transition: all 2s ease-in-out;
+		}
+
+		.no-img-vision{
 			height: 100%;
 			background-size: 125% auto;
 		}
@@ -2864,14 +3133,15 @@ html,body{
 			background-image: url('https://s3.amazonaws.com/cannedhead.smartbrix/nosotros/nosotros1.jpg'); 
 			transition: all 2s ease-in-out;
 			margin-top: 15px;
+			background-repeat: no-repeat;
 		}
 
-		.no-img2:hover{
+		.no-img3:hover{
 			background-size: 130% auto;
 			transition: all 2s ease-in-out;
 		}
 
-		.no-img2{
+		.no-img3{
 			height: 100%;
 			background-size: 125% auto;
 		}
@@ -2903,7 +3173,7 @@ html,body{
 
 		.no-politicas p b{
 			text-align: justify;
-			padding: 0% 5px;
+			padding: 0% 0px;
 
 		}
 
@@ -2984,8 +3254,689 @@ html,body{
 			background-size: 125% auto;
 		}
 
+		/*Contacto 320*/
+
+		#contact-back{
+			background-image: url('https://unsplash.com/photos/tzDMeyKUbOo/download');
+			background-size: 110% auto;
+			background-color: transparent;
+		}
+
+		.info1{
+			background-color: white  !important;
+			height: auto;
+			margin-top: 150px;
+			font-family: 'Raleway', sans-serif;
+			padding: 5%;
+			font-size: 12px;
+		}
+
+		.info1 h2{
+
+			font-weight: 800;
+			font-size: 3em;
+			letter-spacing: 1px;
+			text-align: center;
+			color: white;
+
+		}
+
+		.con-info1{
+			background-color:#fff;
+			height: 190px; 
+			color: #333;
+			/*background-image: url('http://intelligenttravel.nationalgeographic.com/files/2014/05/bogota-skyline-590.jpg'); */
+			margin-bottom: 15px;
+			background-size: 110% auto ;
+		}
+
+		.con-info2{
+			background-color:#fff;
+			height: 190px; 
+			color: #333;
+			/*background-image: url('http://travelnoire.com/wp-content/uploads/2014/03/1126035-panama.jpg');*/ 
+			margin-bottom: 15px;
+			background-size: auto 110% ;
+		}
+
+		.con-filter{
+			background-color: rgba(0,0,0,0.0);
+			height: 100%;
+			padding: 0% 15% !important;
+		}
+
+		.address{
+			border-left: solid 7px white;
+
+		}
+
+		.css-input { 
+
+			border-style:solid;
+			font-size:12px;
+			padding:12px; 
+			border-width:1px; 
+			border-color:#ffffff;
+			background-color: transparent;
+			color: white;
+			margin: 5px 0px;
+		} 
+		
+			  .css-input::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+			      color:    white;
+			      letter-spacing: 1px;
+			  }
+			  .css-input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+			     color:    white;
+			     letter-spacing: 1px;
+			     opacity:  1;
+			  }
+			  .css-input::-moz-placeholder { /* Mozilla Firefox 19+ */
+			     color:    white;
+			     letter-spacing: 1px;
+			     opacity:  1;
+			  }
+			  .css-input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+			     color:    white;
+			     letter-spacing: 1px;
+			  }
+
+
+		.css-input:focus { 
+			outline:none; 
+		} 
+
+		.contact-con{
+			background-color: rgba(255,255,255,0.2);
+			color: white;
+			padding: 5%;
+		}
+
+		.contact-con p b{
+			font-weight: 800;
+			font-size: 1.5em;
+		}
+
+		.contact-con-tra{
+			background-color: rgba(255,255,255,0.2);
+			color: #fff;
+			padding: 5%;
+			border: solid 10px #fff;
+		}
+
+		.contact-con-tra p b{
+			font-weight: 800;
+			font-size: 1.5em;
+		}
+
+		.css-input2 { 
+
+			border-style:solid;
+			font-size:12px;
+			padding:12px; 
+			border-width:1px; 
+			border-color:#8EBC2A;
+			background-color: transparent;
+			color: #333;
+			margin: 5px 0px;
+		} 
+		
+			  .css-input2::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+			      color:    #8EBC2A;
+			      letter-spacing: 1px;
+			  }
+			  .css-input2:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+			     color:    #8EBC2A;
+			     letter-spacing: 1px;
+			     opacity:  1;
+			  }
+			  .css-input2::-moz-placeholder { /* Mozilla Firefox 19+ */
+			     color:    #8EBC2A;
+			     letter-spacing: 1px;
+			     opacity:  1;
+			  }
+			  .css-input2:-ms-input-placeholder { /* Internet Explorer 10-11 */
+			     color:    #8EBC2A;
+			     letter-spacing: 1px;
+			  }
+
+
+		.css-input2:focus { 
+			outline:none; 
+		}
+
+		.info2{
+		
+			height: auto;
+			font-family: 'Raleway', sans-serif;
+			padding: 5%;
+		}
+
+
+
+		.info2 h2{
+
+			font-weight: 800;
+			font-size: 2.3em;
+			letter-spacing: 1px;
+			text-align: center;
+		}
+		.question {
+		  position: relative;
+		  background: #8EBC2A;
+		  margin: 0;
+		  padding: 10px 10px 10px 50px;
+		  display: block;
+		  width:100%;
+		  cursor: pointer;
+		}
+
+		.answers {
+		  background: #fff;
+		  border-left: solid 8px #8EBC2A;
+		  padding: 0px 15px;
+		  margin: 5px 0;
+		  height: 0;
+		  overflow: hidden;
+		  z-index: 1;
+		  position: relative;
+		  opacity: 0;
+		  -webkit-transition: .7s ease;
+		  -moz-transition: .7s ease;
+		  -o-transition: .7s ease;
+		  transition: .7s ease;
+		}
+
+		.questions:checked ~ .answers{
+		  height: auto;
+		  opacity: 1;
+		  padding: 15px;
+		}
+
+		.plus {
+		  position: absolute;
+		  margin-left: 10px;
+		  z-index: 5;
+		  font-size: 2em;
+		  line-height: 100%;
+		  -webkit-user-select: none;    
+		  -moz-user-select: none;
+		  -ms-user-select: none;
+		  -o-user-select: none;
+		  user-select: none;
+		  -webkit-transition: .3s ease;
+		  -moz-transition: .3s ease;
+		  -o-transition: .3s ease;
+		  transition: .3s ease;
+		}
+
+		.questions:checked ~ .plus {
+		  -webkit-transform: rotate(45deg);
+		  -moz-transform: rotate(45deg);
+		  -o-transform: rotate(45deg);
+		  transform: rotate(45deg);
+		}
+
+		.questions {
+		  display: none;
+		}
+
+
+
+		/*proyectos 320*/
+
+		* {
+		  -webkit-box-sizing: border-box;
+		  -moz-box-sizing: border-box;
+		  box-sizing: border-box;
+		}
+
+		*:before, *:after {
+		  -webkit-box-sizing: border-box;
+		  -moz-box-sizing: border-box;
+		  box-sizing: border-box;
+		}
+
+		.gallery {
+		  font-weight: 300;
+		  line-height: 1.5;
+		  color: #333333;
+		  margin-top: 170px;
+		}
+
+		.gallery a {
+		  color: white;
+		}
+
+		.roww {
+		  width: 100%;
+		  max-width: 1170px;
+		  margin: 0 auto;
+		  padding: 0;
+		  clear: both;
+
+		}
+
+		.roww img {
+		  max-width: 100%;
+		  height: auto;
+		  padding: 0;
+		  margin: 0;
+		}
+
+		.gallery ul li {
+		  float: left;
+		  text-decoration: none;
+		  list-style: none;
+		}
+
+		.header-pro {
+		    background-color: #FFFFFF;
+		    color: white;
+		    text-align: center;
+		    height: 50px;
+		    top: 120px;
+		    -webkit-box-shadow: 0px 4px 34px -7px rgba(0,0,0,0.15);
+		    -moz-box-shadow: 0px 4px 34px -7px rgba(0,0,0,0.15);
+		    box-shadow: 0px 4px 34px -7px rgba(0,0,0,0.15);
+		    border-bottom: solid 1px #8EBC2A;
+
+		    position: fixed !important;
+		    z-index: 999;
+		}
+
+		.header-pro h1 {
+		
+		  text-align: center;
+		  text-transform: uppercase;
+		  font-size: 2em;
+		  font-weight: 800;
+		  letter-spacing: 3px;
+		  line-height: 0.8;
+
+		  color: #333;
+		  text-align: center;
+
+		  font-family: "Raleway", sans-serif;
+
+		}
+
+
+		.gallery {
+		  
+		  position: relative;
+		  overflow: hidden;
+		  height: auto;
+		}
+
+
+
+		.gallery .container {
+
+			padding:5% 5%;
+
+		}
+
+		.gallery ul li h6 {
+			text-align: center;
+			text-transform: uppercase;
+			font-family: 'Raleway';
+			letter-spacing: 1px;
+			font-weight: 300;
+			height: 30px;
+
+		
+		}
+
+		.gallery ul li a {
+		  display: block;
+		  position: relative;
+		  width: 100%;
+		  height: 180px;
+		  margin: 0;
+		  padding: 0;
+		  line-height: 0;
+		  overflow: hidden;
+		}
+
+		.gallery ul li a:before {
+		  position: absolute;
+		  width: 32px;
+		  height: 32px;
+		  top: 40%;
+		  left: 50%;
+		  margin: -14px 0 0 -16px;
+		  background: url(data:image/svg+xml;utf8,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22utf-8%22%3F%3E%0A%3C%21--%20Generator%3A%20Adobe%20Illustrator%2017.1.0%2C%20SVG%20Export%20Plug-In%20.%20SVG%20Version%3A%206.00%20Build%200%29%20%20--%3E%0A%3C%21DOCTYPE%20svg%20PUBLIC%20%22-//W3C//DTD%20SVG%201.1//EN%22%20%22http%3A//www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd%22%3E%0A%3Csvg%20version%3D%221.1%22%0A%09%20id%3D%22svg2%22%20xmlns%3Adc%3D%22http%3A//purl.org/dc/elements/1.1/%22%20xmlns%3Acc%3D%22http%3A//creativecommons.org/ns%23%22%20xmlns%3Ardf%3D%22http%3A//www.w3.org/1999/02/22-rdf-syntax-ns%23%22%20xmlns%3Asvg%3D%22http%3A//www.w3.org/2000/svg%22%20xmlns%3Asodipodi%3D%22http%3A//sodipodi.sourceforge.net/DTD/sodipodi-0.dtd%22%20xmlns%3Ainkscape%3D%22http%3A//www.inkscape.org/namespaces/inkscape%22%20inkscape%3Aversion%3D%220.48.4%20r9939%22%20sodipodi%3Adocname%3D%22icon-fullscreen.svg%22%0A%09%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20xmlns%3Axlink%3D%22http%3A//www.w3.org/1999/xlink%22%20x%3D%220px%22%20y%3D%220px%22%20viewBox%3D%220%200%20960%20560%22%0A%09%20enable-background%3D%22new%200%200%20960%20560%22%20xml%3Aspace%3D%22preserve%22%3E%0A%3Csodipodi%3Anamedview%20%20borderopacity%3D%221%22%20pagecolor%3D%22%23ffffff%22%20bordercolor%3D%22%23666666%22%20objecttolerance%3D%2210%22%20gridtolerance%3D%2210%22%20guidetolerance%3D%2210%22%20showgrid%3D%22false%22%20fit-margin-top%3D%220%22%20fit-margin-left%3D%220%22%20inkscape%3Azoom%3D%227.375%22%20inkscape%3Acx%3D%22-5.1525424%22%20inkscape%3Acy%3D%2216%22%20id%3D%22namedview11%22%20inkscape%3Awindow-x%3D%22-8%22%20inkscape%3Awindow-y%3D%22-8%22%20fit-margin-right%3D%220%22%20inkscape%3Apageopacity%3D%220%22%20fit-margin-bottom%3D%220%22%20inkscape%3Awindow-width%3D%221366%22%20inkscape%3Awindow-height%3D%22706%22%20inkscape%3Awindow-maximized%3D%221%22%20inkscape%3Apageshadow%3D%222%22%20inkscape%3Acurrent-layer%3D%22svg2%22%3E%0A%09%3C/sodipodi%3Anamedview%3E%0A%3Cg%3E%0A%09%3Crect%20x%3D%22220%22%20y%3D%22260%22%20fill%3D%22%23FFFFFF%22%20width%3D%22536%22%20height%3D%2224%22/%3E%0A%3C/g%3E%0A%3Cg%3E%0A%09%3Crect%20x%3D%22476%22%20y%3D%224%22%20fill%3D%22%23FFFFFF%22%20width%3D%2224%22%20height%3D%22556%22/%3E%0A%3C/g%3E%0A%3C/svg%3E%0A) no-repeat;
+		  content: "";
+		  opacity: 0;
+		  z-index: 1;
+		  -webkit-transition: all 0.3s linear;
+		  -moz-transition: all 0.3s linear;
+		  transition: all 0.3s linear;
+		}
+
+		.gallery ul li a:hover:before {
+		  top: 50%;
+		  opacity: 1;
+		}
+
+		.gallery ul li a:after {
+		  position: absolute;
+		  width: 100%;
+		  top: 0;
+		  bottom: 0;
+		  background: rgba(0, 0, 0, 0.3);
+		  content: "";
+		  opacity: 0;
+		  border-bottom: solid 7px #8EBC2A; 
+		  -webkit-transition: all 0.3s linear;
+		  -moz-transition: all 0.3s linear;
+		  transition: all 0.3s linear;
+		}
+
+		.gallery ul li img {
+		  width: 100%;
+		  height: auto;
+		}
+
+		.gallery ul li a:hover:after {
+		  opacity: 1;
+		}
+
+		.port {
+		  position: absolute;
+		  width: 100%;
+		  height: 100%;
+		  top: 0px;
+		  left: 0;
+		  font-family: 'Raleway';
+		  background: white;
+		  background-color: #F1F1F1;
+		  z-index: 103;
+		  visibility: hidden;
+		  -webkit-transform: translateY(-100%);
+		  transform: translateY(-100%);
+		  border-bottom: 1px solid #d0d0d0;
+		  -webkit-transition: all 0.5s ease-in-out;
+		  -moz-transition: all 0.5s ease-in-out;
+		  transition: all 0.5s ease-in-out;
+		}
+
+		.port img {
+		  width: 100%;
+		}
+
+		.port .description {
+		 
+		}
+
+		.port h1 {
+		    font-size: 20px;
+		    padding: 0;
+		    text-transform: uppercase;
+		    font-weight: 800;
+		    letter-spacing: 1px;
+		}
+
+		.port h1 span{
+		    font-weight: 400;
+		}
+
+
+
+		
+
+		.port > * {
+		  opacity: 0;
+		  -webkit-transition: all 0.5s linear;
+		  -moz-transition: all 0.5s linear;
+		  transition: all 0.5s linear;
+		}
+
+		.port.item_open {
+		  visibility: visible;
+		  -webkit-transform: translateY(0%);
+		  transform: translateY(0%);
+		  -webkit-transition: all 0.4s ease-in-out;
+		  -moz-transition: all 0.4s ease-in-out;
+		  transition: all 0.4s ease-in-out;
+		}
+
+		.port > * {
+		  opacity: 1;
+		  -webkit-transition-delay: 0.5s;
+		  transition-delay: 0.5s;
+		}
+
+		.close-gallery {
+		  width: 45px;
+		  height: 45px;
+		  background: url(data:image/svg+xml;utf8,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22utf-8%22%3F%3E%0A%3C%21--%20Generator%3A%20Adobe%20Illustrator%2017.1.0%2C%20SVG%20Export%20Plug-In%20.%20SVG%20Version%3A%206.00%20Build%200%29%20%20--%3E%0A%3C%21DOCTYPE%20svg%20PUBLIC%20%22-//W3C//DTD%20SVG%201.1//EN%22%20%22http%3A//www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd%22%3E%0A%3Csvg%20version%3D%221.1%22%0A%09%20id%3D%22svg2%22%20xmlns%3Adc%3D%22http%3A//purl.org/dc/elements/1.1/%22%20xmlns%3Acc%3D%22http%3A//creativecommons.org/ns%23%22%20xmlns%3Ardf%3D%22http%3A//www.w3.org/1999/02/22-rdf-syntax-ns%23%22%20xmlns%3Asvg%3D%22http%3A//www.w3.org/2000/svg%22%0A%09%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20xmlns%3Axlink%3D%22http%3A//www.w3.org/1999/xlink%22%20x%3D%220px%22%20y%3D%220px%22%20viewBox%3D%220%200%2021%2021%22%0A%09%20enable-background%3D%22new%200%200%2021%2021%22%20xml%3Aspace%3D%22preserve%22%3E%0A%3Cg%20id%3D%22layer1%22%20transform%3D%22translate%280%2C-1031.3622%29%22%3E%0A%09%3Cpath%20id%3D%22path2987%22%20fill%3D%22none%22%20stroke%3D%22%23000000%22%20d%3D%22M0%2C1031.4l21%2C21%22/%3E%0A%09%3Cpath%20id%3D%22path2989%22%20fill%3D%22none%22%20stroke%3D%22%23000000%22%20d%3D%22M21%2C1031.4l-21%2C21%22/%3E%0A%3C/g%3E%0A%3C/svg%3E%0A%0A) no-repeat;
+		  position: absolute;
+		  background-color: #8EBC2A;
+		  background-size: 50% 50%;
+		  background-position: 50% 50%;
+
+		  
+	
+		  opacity: 1;
+		  z-index: 1003;
+		  -webkit-transition: all 0.1s ease-in-out;
+		  -moz-transition: all 0.1s ease-in-out;
+		  transition: all 0.1s ease-in-out;
+		}
+
+		.item_open .close-gallery {
+		  opacity: 1;
+		  top: 0px;
+		  left: 0px;
+		  -webkit-transition: all 0.3s ease-in-out;
+		  -moz-transition: all 0.3s ease-in-out;
+		  transition: all 0.3s ease-in-out;
+		}
+
+
+		.c1-proyecto{
+			padding: 15% 10% !important;
+		}
+
+		.c1-proyecto hr{
+			    width: 20%;
+    			border: solid 2px #333;
+		}
+
+		.c1-proyecto p{
+			padding-left: 15px;
+			opacity: 0.8;
+		}
+
+
+		.banner-proyecto { 
+			position: relative; 
+			overflow: auto;
+			height: 100%;
+			 }
+		.banner-proyecto li {
+		 list-style: none; 
+		 background-color: #D9D9D9;
+		}
+		.banner-proyecto ul li { float: left;
+		    margin: 0.0em 0; }
+
+		.banner-proyecto .dots {
+		    position: absolute;
+		    left: 0;
+		    right: 0;
+		    bottom: -10px;
+		    background-color: rgba(0,0,0,0.5);
+		    height: 30px;
+		}
+
+		.banner-proyecto .dots li.active {
+		    background: #fff;
+		    opacity: 1;
+		}
+
+		.banner-proyecto .dots li {
+		    display: inline-block;
+		    width: 10px;
+		    height: 10px;
+		    margin: 0 4px;
+		    text-indent: -999em;
+		    border: 2px solid #fff;
+		    
+		    cursor: pointer;
+		    opacity: .4;
+		    -webkit-transition: background .5s, opacity .5s;
+		    -moz-transition: background .5s, opacity .5s;
+		    transition: background .5s, opacity .5s;
+		}
+
+		/* Productos */
+
+		.productos{
+			margin-top: 120px;
+		}
+
+		.modal {
+		    position: fixed;
+		    top: 120px !important;
+		    right: 0px;
+		    bottom: 0px;
+		    left: 0px;
+		    z-index: 1050;
+		    display: none;
+		    overflow: hidden;
+		    outline: 0px;
+		    padding-left: 0px !important;
+		    font-family: 'Raleway';
+		}
+
+		.close-modal{
+			height: 50px !important;
+			width: 50px !important;
+			background-color: #8EBC2A;
+			position: fixed;
+			z-index: 999;
+			text-align: center;
+
+		}
+
+		.close-modal i{
+			color: white;
+			font-size: 1.8em;
+		}
+
+		.c1-modal{
+			background-color: #333 !important;
+			height: 200px;
+		}
+
+		.c2-modal{
+			background-color: white;
+			height: auto;
+			padding: 5% 5% !important;
+		}
+
+		.c2-modal h2{
+		
+			text-transform: uppercase;
+			font-weight: 800;
+		}
+
+		.c2-modal h2 span{
+		
+			font-weight: 300;
+		}
+
+		.product-module{
+			margin-top: 15px;
+		}
+
+		.benefit-title{
+			font-weight: 800 !important;
+		}
+
+		/*Modal contacto*/
+
+		.modal-contacto{
+			background-color: rgba(0,0,0,0.5);
+		}
+
+		.modal-dialog-con{
+			height: 500px !important;
+		}
+
+		.modal-content2{
+
+			border-radius: 0px !important;
+			height: 100% !important;
+			background-color: #8EBC2A !important;
+			padding: 5% 5% !important;
+		}
+
+		.modal-title{
+			font-family:'Raleway';
+			font-weight: 400;
+			color: white;
+			text-align: center;
+		}
+
+		.modal-title span{
+			font-family:'Raleway';
+			font-weight: 800;
+			color: white;
+			font-size: 2em;
+		}
+
+		/*
+			smart #8EBC2A
+		*/
+
 
 	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 	@media (min-width: 480px) { 
 		.cliente-cube,
@@ -2994,6 +3945,14 @@ html,body{
 		}
 
 		.servicio{
+			height: 250px; 
+		}
+
+		.servicio2{
+			height: 250px; 
+		}
+
+		.servicio3{
 			height: 250px; 
 		}
 		.menu-wrap{
@@ -3021,11 +3980,40 @@ html,body{
 		}
 	}
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	@media (min-width: 520px) { 
 
 		.servicio{
 			height: 350px; 
 		}
+
+		.servicio2{
+			height: 450px; 
+		}
+
+		.servicio3{
+			height: 450px; 
+		}
+
 
 		#h-screen{
 			height: 770px;
@@ -3070,6 +4058,10 @@ html,body{
 		  font-size: 2.4em;
 		}
 
+		.contact-btn-3 p {
+		  font-size: 2.4em;
+		}
+
 		.slider-link p {
 		  font-size: 1.1em;
 		}
@@ -3103,6 +4095,44 @@ html,body{
 		}
 	}
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	@media (min-width: 768px) { 
 
 		.menu-wrap{
@@ -3117,6 +4147,16 @@ html,body{
 		.servicio{
 			height: 240px;
 			  padding: 0% 2% !important;
+		}
+
+		.servicio2{
+			height: 240px;
+			  padding: 0% 2% !important;
+		}
+
+		.servicio3{
+			height: 85%;
+			  
 		}
 
 		.arrow-down2{
@@ -3150,6 +4190,9 @@ html,body{
 		  margin-bottom: 3%;
 		}
 		.contact-btn-2 p {
+		  font-size: 1.4em;
+		}
+		.contact-btn-3 p {
 		  font-size: 1.4em;
 		}
 		.footer-c4 img {
@@ -3349,18 +4392,35 @@ html,body{
 			height: 100% !important;
 			padding-top: 6% !important;
 		}
-		.servicio {
+		.servicio2 {
 		    height: 430px;
 		    padding: 0% 2% !important;
 		}
 
+		.servicio3 {
+		    height: 100%;
+		  
+		}
+
 		.no-img1 {
 		    background-size: auto 100% !important;
+		    
 		}
+
+	
 
 		.no-img2 {
     		background-color: white;
-    		background-image: url('https://s3.amazonaws.com/cannedhead.smartbrix/nosotros/nosotros2.jpg');
+    		background-image: url('https://s3.amazonaws.com/cannedhead.smartbrix/quienes-somos.jpg');
+    		transition: all 2s ease-in-out;
+    		margin-top: 0px;
+    		background-size: auto 100% !important;
+    		padding-left: 15px !important;
+		}
+
+		.no-img-vision {
+    		background-color: white;
+    		background-image: url('https://s3.amazonaws.com/cannedhead.smartbrix/mision-vision.jpg');
     		transition: all 2s ease-in-out;
     		margin-top: 0px;
     		background-size: auto 100% !important;
@@ -3371,8 +4431,107 @@ html,body{
 		    background-color: #fff;
 		}
 		.footer-c6{
-			margin-top: 50px;		}
+			margin-top: 50px;	
+		}
+		/*contacto 768*/
+
+		.fullpage-con{
+			height: 100% !important;
+		}
+
+		.info1{
+		  margin-top: 80px;
+		}
+
+		.con-info1{
+			
+			background-size: 130% auto ;
+		}
+
+		.con-info2{
+			
+			background-size: 130% auto ;
+		}
+
+		/*proyectos */
+		.gallery {
+		  height: auto;
+		}
+
+		/*productos*/
+
+		.beneficios p {
+			text-align: center;
+			margin-bottom: 30px;
+			margin-top: 30px;
+			font-size: 0.9em;
+		}
+
+		.product-module p{
+			font-size: 0.9em !important;
+		}
+
+		.product-module{
+			height: 230px;
+		}
+
+		.port {
+		  position: fixed;
+		  width: 100%;
+		  height: 100%;
+		  top: 170px;
+		  left: 0;
+		  font-family: 'Raleway';
+		  background: white;
+		  background-color: #F1F1F1;
+		  z-index: 103;
+		  visibility: hidden;
+		  -webkit-transform: translateY(-100%);
+		  transform: translateY(-100%);
+		  border-bottom: 1px solid #d0d0d0;
+		  -webkit-transition: all 0.5s ease-in-out;
+		  -moz-transition: all 0.5s ease-in-out;
+		  transition: all 0.5s ease-in-out;
+		}
+
+		.c1-proyecto {
+		    padding: 10% 5% !important;
+		}
+
+		.banner-proyecto{
+			margin-top: 20%
+		}
+
+
 	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 	@media (min-width: 992px) { 
 
@@ -3511,7 +4670,18 @@ html,body{
 			text-align: center;
 		}
 
+		.footer-cp{
+			text-align: center;
+		}
+
 		.footer-c2 hr {
+		  width: 10%;
+		  text-align: right;
+		  margin-left: 45%;
+		  margin-top: 2%; 
+		}
+
+		.footer-cp hr {
 		  width: 10%;
 		  text-align: right;
 		  margin-left: 45%;
@@ -3594,18 +4764,29 @@ html,body{
 			height: 85% !important;
 			padding-top: 6% !important;
 		}
-		.servicio {
-		    height: 85%;
-		    padding: 0% 2% !important;
+		
+		.no-img1 {
+			height: 100%;
+		    background-size: auto 100% !important;
 		}
 
-		.no-img1 {
-		    background-size: auto 100% !important;
+		.no-img-i {
+			height: 100%;
+		    background-size:  100% auto !important;
 		}
 
 		.no-img2 {
     		background-color: white;
-    		background-image: url('https://s3.amazonaws.com/cannedhead.smartbrix/nosotros/nosotros2.jpg');
+    		background-image: url('https://s3.amazonaws.com/cannedhead.smartbrix/quienes-somos.jpg');
+    		transition: all 2s ease-in-out;
+    		margin-top: 0px;
+    		background-size: auto 100% !important;
+    		padding-left: 15px !important;
+		}
+
+		.no-img-vision {
+    		background-color: white;
+    		background-image: url('https://s3.amazonaws.com/cannedhead.smartbrix/mision-vision.jpg');
     		transition: all 2s ease-in-out;
     		margin-top: 0px;
     		background-size: auto 100% !important;
@@ -3616,8 +4797,122 @@ html,body{
 		    background-color: #fff;
 		}
 		.footer-c6{
-			margin-top: 50px;		}
+			margin-top: 50px;		
+		}
+
+		.footer-c2{
+			display: none;
+		}
+
+		.footer-cp{
+		
+		}
+
+
+
+
+		/*proyectos */
+
+		.gallery {
+		  height: 100;
+		}
+
+		.c1-proyecto{
+			padding: 10% 10% !important;
+		}
+
+
+		/*productos*/
+		.servicio3 {
+		    height: 100%;
+		  
+		}
+
+		.servicio2 {
+		    height: 500px;
+		    padding: 0% 2% !important;
+		}
+		.productos{
+			margin-top: 120px;
+		}
+
+		.ser-description{
+			font-size: 0.9em;
+		}
+
+
+		/*Productos*/
+
+		.c1-modal,
+		.c2-modal{
+			height: 100%;
+		}
+
+		#producto1-modal,
+		#producto1-modal{
+			height: 100%;
+		}
+
+		.cont-producto{
+			height: 100%;
+		}
+
+		.c2-modal {
+		    background-color: white;
+		    height: auto;
+		    padding: 0% 5% !important;
+		    height: 100%;
+		    overflow: scroll;
+		}
+
+		.product-module{
+			height: auto ;
+		}
+
+		.footer-cp{
+			margin-bottom: 130px;
+		}
+
+		.modal{
+			top: 70px !important;
+		}
+
+
+
+		/*servicios*/
+
+		.contact-btn-ser{
+			height: 170px !important;
+		}
+
+
 	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 	@media (min-width: 1200px) { 
 		
@@ -3638,19 +4933,21 @@ html,body{
 		.tel{
 			height: 50px; 
 		}
-
+		.iso-menu{
+			height: 70px;
+		}
 		.iso-menu img{
-			width: 54px;
+			width: 60px;
 		}
 
 		.iso-menu h5{
 			text-align: center;
     		margin-top: 0px;
     		color: white;
-    		font-size: 10px !important;
+    		font-size: 12px !important;
 		}
 		.logo {
-		  margin-top: 6%;
+		  margin-top: 15%;
 		  width: 17%;
 		}
 		.cont-home h5 {
@@ -3803,6 +5100,10 @@ html,body{
 	  		height: 94%;
 		}
 
+		.contact-btn-3 {
+	  		height: 80%;
+		}
+
 
 		.css-input { 
 
@@ -3883,6 +5184,7 @@ html,body{
 
 		.footer-c3{
 			  margin-top: 2%;
+			  margin-bottom: 100px;
 		}
 
 		.pillow-nav{
@@ -3942,6 +5244,7 @@ html,body{
 			-webkit-box-shadow: 0 1px 4px 1px rgba(0,0,0,0.3);
 	  		box-shadow: 0 1px 4px 1px rgba(0,0,0,0.3);
 	  		z-index: 99999999;
+	  		top: 0px;
 		}
 
 		.logo-anim{
@@ -3980,7 +5283,7 @@ html,body{
 			display: block;
 			text-align: center;
 			position: relative;
-			padding: 0px 10px 4px 10px;
+			padding: 0px 3px 4px 3px;
 			/* margin-right: 30px; */
 			/* margin-top: 7px; */
 			border: none;
@@ -4002,7 +5305,7 @@ html,body{
 	}
 
 
-	/*Nosotros*/
+	/*Nosotros 1200*/
 
 	.nosotros1, .nosotros2,  .nosotros4{
 		height: 100% !important;
@@ -4026,17 +5329,323 @@ html,body{
 	    margin-top: 0px;
 	}
 
-	.servicio {
-    height: 100%;
-    padding: 0.5% !important;
-	}
+	
 
 	.no-intro {
 	    text-align: center;
 	    padding: 7% 10% !important;
 	}
 
+	.no-mision{
+		position: relative;
+		top: 50%;
+		transform: translateY(-50%);
+		-webkit-transform: translateY(-50%);
+		-ms-transform: translateY(-50%);
+	}
+
+	.mision{
+		position: relative;
+		top: 50%;
+		transform: translateY(-50%);
+		-webkit-transform: translateY(-50%);
+		-ms-transform: translateY(-50%);
+	}
+	.no-img2 {
+	    background-color: white;
+	    background-image: url('https://s3.amazonaws.com/cannedhead.smartbrix/quienes-somos.jpg');
+	    transition: all 2s ease-in-out;
+	    margin-top: 0px;
+	    background-size: 100% auto !important;
+	    padding-left: 15px !important;
+	}
+
+	.no-img-vision {
+	    background-color: white;
+	    background-image: url('https://s3.amazonaws.com/cannedhead.smartbrix/mision-vision.jpg');
+	    transition: all 2s ease-in-out;
+	    margin-top: 0px;
+	    background-size: 100% auto !important;
+	    padding-left: 15px !important;
+	}
+
+	.no-mision p {
+	    text-align: justify;
+	    padding: 0% 50px;
+	}
+
+	.nosotros1, .nosotros2, .nosotros3,  .nosotros4{
+		font-size: 13px !important;
+
+	}
+
+	.no-intro hr {
+	    border: solid 1px #333;
+	    width: 10%;
+	    margin-left: 45%;
+	}
+
+	.no-mision hr {
+    	border: solid 1px #333;
+    	width: 5%;
+	}
+
+	.no-politicas hr {
+	    border: solid 1px #333;
+	    width: 5%;
+	}
+
+	.no-politicas p {
+	    text-align: justify;
+	    padding: 0% 20px;
+	}
+	.square{
+	    counter-reset: list-counter;
+	    list-style: none;
+	    float:left;
+	}
+
+
+	.square li{
+	       width: 35px;
+	       float: left;
+	}
+	.square li:before{
+	    content: counter(list-counter);
+	    counter-increment: list-counter;
+	    width: 25px;
+	    height: 25px;
+	    padding: .2em;
+	    margin-right: 1em;
+	
+	    background: #333;
+	    color: #fff;
+
+	    font-size: 1.1em;
+	    text-align: center;
+	    display: inline-block;
+	    
+	}
+	.no-intro-custom{
+		padding: 2% 5% !important;
+	}
+	.contact-home-2{
+		margin-top: 20%;
+	}
+
+	.no-arrow i{
+		color: #333;
+		font-size: 2.5em;
+	}
+
+	/*Contacto 1200*/
+
+	.prf{
+		background-color: white;
+		height: 50px;
+		font-family: 'Raleway';
+		margin-top: 15px;
+		padding: 5px 10% !important;
+
+	}
+
+	.prf h4{
+		float: left;
+		text-transform: uppercase;
+		color: #333;
+		font-weight: 800;
+
+	}
+
+	.prf span{
+		float: left;
+	}
+
+
+	.prf span i{
+		font-size: 2.5em;
+		margin-left: 15px;
+		color: #333;
+	}
+
+	.info2{
+	
+		height: auto;
+		font-family: 'Raleway', sans-serif;
+		padding: 5%;
+		margin-top: 100px;
+
+	}
+
+	.info1{
+		background-color: white  !important;
+		height: auto;
+		margin-top: 30px;
+		font-family: 'Raleway', sans-serif;
+		padding: 5%;
+	}
+
+	.con-info1, .con-info2 {
+
+	    height: 220px;
+	  
+	}
+	.contact-con{
+		padding: 2%;
+	}
+
+	.css-input { 
+
+		padding:5px; 
+		
+	} 
+
+	.header-pro{
+		top: 70px;
+	}
+
+	.gallery{
+		    margin-top: 120px;
+		    height: auto;
+	}
+
+	.gallery .container {
+
+			padding:3% 5%;
+
+	}
+
+	/*productos*/
+
+	.servicio2 {
+	    height: 400px;
+	    padding: 0% 5px !important;
+	
+	}
+	.productos{
+		margin-top: 120px;
+		background-color: white !important;
+	}
+
+	.ser-description{
+		font-size: 0.85em;
+	}
+
+	.ser-description h3{
+		font-size: 1.5em;
+		margin-top: 0px;
+	}
+	.productos {
+	    margin-top: 15px;
+	}
+
+	.ser2-img1, 
+	.ser2-img2, 
+	.ser2-img3, 
+	.ser2-img4, 
+	.ser2-img5, 
+	.ser2-img6 {
+	    height: 28%;
+	    background-size: 125% auto;
+	    background-color: #C0C0C0;
+	}
+
+	.beneficios {
+	    margin-top: 40px;
+	}
+
+	.beneficios p {
+		text-align: center;
+		margin-bottom: 10px;
+		margin-top: 5px;
+		font-size: 0.9em;
+	}
+
+	.c2-modal {
+	    overflow: scroll;
+	}
+
+	.footer-cp{
+		margin-bottom: 130px;
+	}
+
+	.product-module p{
+		font-size: 1.1em !important;
+	}
+
+	.product-module{
+		height: auto;
+	}
+
+	.hidden-section{
+		margin-top: -60px;
+		opacity: 0.0 !important;
+	}
+
+
+	.port {
+	  position: fixed;
+	  width: 100%;
+	  height: 100%;
+	  top: 120px;
+	  left: 0;
+	  font-family: 'Raleway';
+	  background: white;
+	  background-color: #F1F1F1;
+	  z-index: 103;
+	  visibility: hidden;
+	  -webkit-transform: translateY(-100%);
+	  transform: translateY(-100%);
+	  border-bottom: 1px solid #d0d0d0;
+	  -webkit-transition: all 0.5s ease-in-out;
+	  -moz-transition: all 0.5s ease-in-out;
+	  transition: all 0.5s ease-in-out;
+	}
+
+	.c1-proyecto {
+	    padding: 10% 10% !important;
+	}
+
+	.banner-proyecto{
+		margin-top: 0%
+	}
+
+
+
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 	@media (min-width: 1680px) {
 

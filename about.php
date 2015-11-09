@@ -1,4 +1,4 @@
-<?php include 'header.php';?>
+<?php include 'header-en.php';?>
 
   <div id="fullpage">
 
@@ -16,24 +16,25 @@
           <h2>SMARTBRIX</h2>
           <hr>
           <p> 
-              SmartBrix líder en construcción modular, 
-              es una empresa innovadora y dinámica, 
-              especializada en ofrecer soluciones de espacios  
-              multiusos temporales o permanentes, enfocadas en 
-              cubrir las necesidades y expectativas que cada cliente exige. 
+              SmartBrix, a leader in modular construction, 
+              is an innovative and dynamic company specialized 
+              in providing solutions for temporary or permanent 
+              multipurpose spaces. We pride ourself on our ability 
+              to satisfy the needs and expectations of each client. 
               <br>
               <br>
-              Orientamos nuestros esfuerzos para otorgar un 
-              servicio integral llave en mano que garantiza el 
-              perfecto equilibrio entre <b>calidad, diseño, 
-              costo y plazo de entrega,</b> mediante un producto 
-              innovador, recurso humano competente y un servicio 
-              personalizado de principio a fin. 
+
+              We focus our efforts on providing 
+              comprehensive services that guarantee the perfect balance 
+              between <b>quality, design, cost and delivery time.</b> We do this 
+              through an innovative product, competent human resources 
+              and a personalized service in all aspects of the process. 
+              
+              
               <br>
               <br>
-              Actualmente, contamos con sedes en Colombia y Panamá, 
-              desde las cuales operamos para servir a todo el mercado 
-              latinoamericano.
+              We currently have offices in Colombia and Panama, 
+              from which, we are able to serve the entire Latin American market.
           </p>
    
            
@@ -57,13 +58,13 @@
           <h2>MISIÓN / VISIÓN</h2>
           <hr>
           <p> 
-              SmartBrix Espacios Modulares S.A.S es una empresa
-              que provee espacios modulares rápidos, de alta 
-              calidad y diseño, con énfasis especial en la atención al cliente.
+              SmartBrix is a company 
+              that provides fast modular spaces with high quality, 
+              design and special emphasis on personalized service.
               <br>
               <br>
-              Ser la compañía líder en el mercado colombiano para el 2015,
-               y con presencia en Latino América para el 2018. 
+              Being the leader in the Colombian market by 2015 and 
+              having a high presence in all of the Latin America by 2018.
             
           </p>
 
@@ -104,37 +105,39 @@
       
       </div>
       <div class="col-xs-12 col-sm-6 col-md-6 no-politicas">
-          <h2>POLÍTICA DE CALIDAD</h2>
+          <h2>QUALITY POLICY</h2>
           <hr>
           <p> 
-              En SMARTBRIX ESPACIOS MODULARES S.A.S. 
-              orientamos nuestros esfuerzos a la gestión de procesos y 
-              al mejoramiento continuo enfocado en cubrir las necesidades y 
-              expectativas de nuestros clientes de manera oportuna, con calidad y 
-              costos razonables, apoyándonos en un recurso humano  competente.
+              At SMARTBRIX, we concentrate on continuously 
+              improving our process management. We do this by 
+              having a special focus on satisfying the needs and 
+              expectations of our clients. Delivering our products 
+              on time with the highest quality and at a reasonable 
+              cost has always been our main focus. We also rely on 
+              our competent human resource.
               <br>
               <br>
-              <b>Objetivos de calidad</b>
+              <b>Quality aims</b>
               <br>
 
               <ul class="square">
                 <li></li>
-                <p>Mejorar continuamente los procesos de la organización.</p>
+                <p>Continuous improvement of the processes of the organization. </p>
                 <br>
                 <li></li>
-                <p>Satisfacer al cliente según sus requerimientos en aspectos de calidad y servicio.</p>
+                <p>Satisfy quality requirements of the client. </p>
                 <br>
                 <li></li>
-                <p>Aumentar la oportunidad en los despachos para garantizar la satisfacción del cliente</p>
+                <p>Increase shipping opportunities to ensure client satisfaction.</p>
                 <br>
                 <li></li>
-                <p>Tener proveedores confiables, que cumplan con tiempos de entrega establecidos y nos ofrezcan las mejores condiciones para poder competir en el mercado.</p>
+                <p>Have reliable suppliers that meet delivery times and offer us the best conditions to compete in the market.</p>
                 <br>
                 <li></li>
-                <p>Aumentar nuestras ventas en las diferentes líneas.</p>
+                <p>Increase our sales.</p>
                 <br>
                 <li></li>
-                <p>Cumplir con las metas establecidas en los indicadores de procesos para optimizar las actividades.</p>
+                <p>Reach the targets set in process indicators to optimize our activities.</p>
               </ul>
             
           </p>
@@ -151,8 +154,8 @@
             <div class="col-xs-12  contact-btn">
               <div class="col-xs-12 contact-btn-2 va">
                 <div class="col-xs-8 va">
-                  <p class="solicita">Solicita</p>
-                  <p class="cotizacion">Tu Cotización</p>
+                  <p class="solicita">Request </p>
+                  <p class="cotizacion">a proposal</p>
                 </div>
                 <div class="col-xs-4 no-padding contact-btn-icon va">
                   <i class="fa fa fa-file-o cotiza-icon"></i>
@@ -179,26 +182,26 @@
     
     </div>
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 no-intro-custom no-intro">
-        <h2>POLÍTICAS HSEQ</h2>
+        <h2>HSEQ POLICY</h2>
         <hr>
         <p>
-            Para SMARTBRIX ESPACIOS MODULARES S.A.S. es importante 
-            garantizar la seguridad en nuestras instalaciones para sus
-            clientes, empleados, contratistas, proveedores y demás grupos 
-            de interés, con el firme compromiso de mantener altos 
-            estándares en seguridad, salud en el trabajo y ambiente.
+            For us it is very important to ensure security in 
+            our facilities for our clients,  employees, contractors, 
+            suppliers and other stakeholders. We have a firm commitment 
+            to maintaining high standards in safety, occupational health 
+            and the environment.
             <br>
             <br>
-            Se encuentra comprometida con la mejora continua en sus 
-            procesos, cumpliendo con la legislación y otros requisitos 
-            que se suscriban en Seguridad, Salud en el Trabajo y Ambiente, 
-            suministrando los recursos económicos para el desarrollo del 
-            Sistema de Gestión Integrado.
+            We are committed to continuously improving our 
+            processes according to the legislation and other 
+            requirements concerning the policy on safety, occupational 
+            health and the environment. This provides financial resources 
+            for the development of Integrated Management System.
             <br>
             <br>
-            Promueve la calidad de vida laboral, la prevención de accidentes, 
-            de lesiones personales, enfermedades laborales, de daños
-            a la propiedad e impacto socio-ambiental.
+            Promotes the quality of working life, prevention of accidents, 
+            personal injuries, occupational diseases, social property 
+            damages and environmental impact.
         </p>
   
           <a data-scroll href="#p-screen" class="hidden-xs hidden-sm">
@@ -218,19 +221,19 @@
                 <i class="fa fa fa-file-o "></i>
               </div>
               <div class="col-md-12 no-padding">
-                <p>CONTÁCTANOS</p>
+                <p>CONTACT US</p>
               </div>
               
               <div class="col-md-12 no-padding">
                 <form id="" method="post" action= "/info_freedom")>
                     <div class="">      
-                      <input class="css-input col-md-12" type="text"  name="nombre" placeholder="Nombre y Apellidos" required />
-                      <input class="css-input col-md-12" type="text"  name="nombre" placeholder="E-mail" required />
-                      <input class="css-input col-md-12" type="text"  name="nombre" placeholder="Teléfono" required />
+                      <input class="css-input col-md-12" type="text"  name="nombre" placeholder="Full name" required />
+                      <input class="css-input col-md-12" type="text"  name="nombre" placeholder="E-mail address" required />
+                      <input class="css-input col-md-12" type="text"  name="nombre" placeholder="Phone number" required />
                     
                     </div>
                     <BR>
-                    <button class="col-xs-12 send-btn-con btn-block">ENVIAR</button>
+                    <button class="col-xs-12 send-btn-con btn-block">SEND</button>
                 </form>
               </div>
               
@@ -254,7 +257,7 @@
 
 
 
-<?php include 'footer.php';?>
+<?php include 'footer-en.php';?>
 
     
 
